@@ -6,7 +6,7 @@ Site público do acervo fotográfico comunitário de Valença.
 
 - **Fotos originais**: numa pasta do Google Drive, em alta resolução.
 - **Catálogo**: numa planilha do Google, que os alunos preenchem.
-- **Site**: lê a planilha publicada e mostra o catálogo. É só HTML/CSS/JS, publicado no Vercel.
+- **Site**: lê a planilha publicada e mostra o catálogo. É só HTML/CSS/JS, publicado no GitHub Pages.
 
 O que os alunos alteram na planilha aparece no site em **até uns 5 minutos** (é o tempo que o Google
 leva para atualizar a versão publicada).
@@ -96,9 +96,15 @@ Para editar, os alunos precisam ser convidados pelo botão **Compartilhar** norm
 Dica: com a pasta `Fotos` compartilhada como "Qualquer pessoa com o link", cada foto nova colocada nela já entra
 compartilhada, e o passo 2 vira só **Copiar link**.
 
-## Publicar no Vercel
+## Publicação (GitHub Pages)
 
-Importar o repositório no Vercel como projeto estático (Framework: *Other*, sem comando de build).
+O site é publicado pelo **GitHub Pages**, direto do repositório `programaraizesifbaiano/valenca-em-fotos`
+(branch `main`, pasta raiz). Endereço: **https://programaraizesifbaiano.github.io/valenca-em-fotos/**
+
+- Cada alteração enviada ao GitHub (`git push`) publica uma versão nova em ~1 minuto.
+- Fotos e fichas novas **não** precisam de nada disso: o site lê direto da planilha.
+- O plano gratuito do Pages exige repositório **público**. Não há nada sigiloso no código
+  (o link da planilha publicada já é público; contatos ficam só na aba privada da planilha).
 
 Para ver no computador antes:
 ```
