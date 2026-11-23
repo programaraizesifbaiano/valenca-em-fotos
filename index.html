@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Valença em Fotos</title>
+<meta name="description" content="Acervo fotográfico comunitário de Valença: fotografias antigas reunidas com os moradores, com as histórias de cada imagem.">
+<meta property="og:title" content="Valença em Fotos">
+<meta property="og:description" content="Acervo fotográfico comunitário de Valença.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+<!-- ============ Banner ============ -->
+<header class="hero" id="topo">
+  <div class="hero-veu" aria-hidden="true"></div>
+
+  <nav class="nav">
+    <a class="marca" href="#topo">Valença <em>em</em> Fotos</a>
+    <div class="nav-links">
+      <a href="#acervo">Acervo</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contribua">Contribua</a>
+    </div>
+  </nav>
+
+  <div class="hero-texto">
+    <p class="sobretitulo">Acervo fotográfico comunitário</p>
+    <h1>Valença <em>em</em> Fotos</h1>
+    <p class="hero-lead">A memória da cidade guardada nos álbuns de família, reunida, catalogada e contada por quem viveu cada imagem.</p>
+    <div class="hero-acoes">
+      <a class="botao botao-claro" href="#acervo">Explorar o acervo</a>
+      <a class="botao botao-contorno" href="#contribua">Como contribuir</a>
+    </div>
+  </div>
+</header>
+
+<!-- ============ Números ============ -->
+<section class="numeros" id="numeros" aria-label="O acervo em números"></section>
+
+<!-- ============ Acervo ============ -->
+<main class="acervo" id="acervo">
+  <div class="secao-cabeca">
+    <div>
+      <p class="sobretitulo escuro">O acervo</p>
+      <h2>Fotografias</h2>
+    </div>
+    <label class="busca">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="busca" type="search" placeholder="Buscar lugar, ano, assunto, família…" aria-label="Buscar no acervo">
+    </label>
+  </div>
+
+  <div class="decadas" id="decadas" role="group" aria-label="Filtrar por década"></div>
+  <p class="contagem" id="contagem" aria-live="polite">Carregando acervo…</p>
+  <div class="mural" id="mural"></div>
+</main>
+
+<!-- ============ Sobre ============ -->
+<section class="sobre" id="sobre">
+  <div class="sobre-texto">
+    <p class="sobretitulo escuro">Sobre o projeto</p>
+    <h2>Uma cidade contada pelas suas fotografias</h2>
+    <p><strong>Valença em Fotos</strong> é um projeto de prospecção, catalogação e organização de um arquivo
+    fotográfico da cidade. Moradores trazem suas fotos antigas, que são digitalizadas e catalogadas por estudantes,
+    junto com a conversa sobre a história de cada imagem: quando foi feita, onde, quem aparece e o que ela lembra.</p>
+    <p>Cada fotografia traz também uma memória. O acervo é feito dessas imagens e das histórias que vêm com elas.</p>
+  </div>
+
+  <div class="contribua" id="contribua">
+    <h3>Tem fotos antigas de Valença?</h3>
+    <ol class="passos">
+      <li><span>1</span><div><strong>Traga sua foto</strong>Acompanhe a chamada pública nas rádios locais e no Instagram do projeto.</div></li>
+      <li><span>2</span><div><strong>Digitalizamos e devolvemos</strong>A foto original volta para você; guardamos uma cópia digital em alta qualidade.</div></li>
+      <li><span>3</span><div><strong>Sua história entra no acervo</strong>Conversamos sobre a imagem e, com sua autorização, ela é publicada aqui.</div></li>
+    </ol>
+    <a class="botao botao-escuro" href="https://www.instagram.com/programa__raizes/" target="_blank" rel="noopener">@programa__raizes no Instagram</a>
+  </div>
+</section>
+
+<footer class="rodape">
+  <p class="marca">Valença <em>em</em> Fotos</p>
+  <p>Um projeto do Programa Raízes. As imagens pertencem a seus responsáveis e são publicadas com autorização.</p>
+</footer>
+
+<!-- ============ Visualizador ============ -->
+<div class="visor" id="visor" role="dialog" aria-modal="true" aria-labelledby="visorTitulo" hidden>
+  <button class="visor-fechar" id="visorFechar" aria-label="Fechar">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+  </button>
+  <button class="visor-seta anterior" id="visorAnterior" aria-label="Foto anterior">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 5-7 7 7 7"/></svg>
+  </button>
+  <figure class="visor-imagem" id="visorImagem"></figure>
+  <button class="visor-seta proxima" id="visorProxima" aria-label="Próxima foto">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>
+  </button>
+  <aside class="visor-info" id="visorInfo"></aside>
+</div>
+
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

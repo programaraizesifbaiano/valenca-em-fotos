@@ -1,0 +1,15 @@
+Código,Título,Link da foto,Ano,Mês,Dia,Local,Descrição,Relato,Acervo de
+EX-0001,Exemplo: vista do rio,https://picsum.photos/id/1015/1600/1000?grayscale,1935,,,Margem do rio,Foto de demonstração. Aqui entra a descrição do que aparece na imagem.,"Aqui entra o relato de quem trouxe a foto: o que ela lembra, quem aparece, como era o lugar.",Família Exemplo
+EX-0002,Exemplo: casario,https://picsum.photos/id/1031/900/1200?grayscale,1942,Março,,Centro,Foto de demonstração.,,Família Exemplo
+EX-0003,Exemplo: estrada de terra,https://picsum.photos/id/1018/1200/800?grayscale,1953,,,Saída da cidade,Foto de demonstração.,Meu avô contava que essa estrada ficava intransitável na época das chuvas.,Família Modelo
+EX-0004,Exemplo: paisagem,https://picsum.photos/id/1036/1200/900?grayscale,1958,Agosto,15,Zona rural,Foto de demonstração.,,Família Modelo
+EX-0005,Exemplo: rua principal,https://picsum.photos/id/1040/900/1300?grayscale,1964,,,Rua principal,Foto de demonstração.,,Acervo Teste
+EX-0006,Exemplo: ponte,https://picsum.photos/id/1039/1200/800?grayscale,1967,Junho,,Sobre o rio,Foto de demonstração.,"Texto de exemplo de um relato mais longo.
+
+Pode ter mais de um parágrafo, e o site respeita as quebras de linha da planilha.",Acervo Teste
+EX-0007,Exemplo: mata,https://picsum.photos/id/1043/1000/1300?grayscale,1972,,,Arredores,Foto de demonstração.,,Família Exemplo
+EX-0008,Exemplo: costa,https://picsum.photos/id/1044/1200/800?grayscale,1978,Fevereiro,20,Litoral,Foto de demonstração.,,Família Modelo
+EX-0009,Exemplo: lago,https://picsum.photos/id/1047/1200/1000?grayscale,1983,,,Lagoa,Foto de demonstração.,,Acervo Teste
+EX-0010,Exemplo: montanha,https://picsum.photos/id/1016/1300/900?grayscale,1989,Setembro,,Serra,Foto de demonstração.,,Família Exemplo
+EX-0011,Exemplo: campo,https://picsum.photos/id/1019/1000/1000?grayscale,1994,,,Fazenda,Foto de demonstração.,,Família Modelo
+EX-0012,Exemplo: sem data definida,https://picsum.photos/id/1022/1200/850?grayscale,,,,Local desconhecido,"Foto de demonstração sem data: aparece no filtro ""Sem data"".",,Acervo Teste
